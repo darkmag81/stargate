@@ -1,0 +1,158 @@
+/*---------------------------Fonts----------------------------------------*/
+@font-face {
+	font-family: 'stargatefont';
+	src: url('../../assets/font/stargatefont.ttf'); 
+	src: 
+		local('StargateFont'),
+		local('StargateFont'),
+		url('../../assets/font/stargatefont.ttf') 
+		format('opentype');
+}
+
+@font-face {
+	font-family: 'glyphs';
+	src: url('../../assets/font/atlantis-glyphs.ttf'); 
+	src: 
+		local('glyphs'),
+		local('glyphs'),
+		url('../../assets/font/atlantis-glyphs.ttf') 
+		format('opentype');
+}
+
+/*---------------------------Background--------------------------------------*/
+body, html {
+    height: 100%;  
+    width: 100%;
+}
+
+.bg{
+    background-image: url(../../assets/images/sgbig.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*---------------------------Text & Glyphs-----------------------------------*/
+
+.stargate {
+    font-family: 'StargateFont', sans-serif;
+    font-size: xx-large;
+    text-align: left;
+    color: gold;
+    padding-left: 15px;
+    opacity: .8;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.glyphs{
+    border:1px solid darkgrey;
+    font-family: 'glyphs', sans-serif;
+    font-size: xx-small;
+    color: white;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+.maly{
+    font-size: medium;
+    color: red;
+}
+
+/*----------------Margins, Paddings, Misc-----------------------------------*/
+
+.odstep{
+    margin-top: 15px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.nopad{
+    padding: 0;
+    overflow: hidden;
+}
+
+.nomar {
+    margin: 0;
+}
+
+.odstep2{
+    margin-bottom: 15px;
+}
+
+/*------------------------Navbar & Buttons-----------------------------------*/
+
+.nav{
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sgfont{
+    font-family: 'StargateFont', sans-serif;
+}
+
+.przy{
+    text-align: center;
+    padding-top: 5px;
+    font-size: small;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #030;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+/*-----------------------------Borders---------------------------------------*/
+
+.ramka {
+    background-color: #75deff;
+    border: 1px solid darkgrey;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.8;
+}
+
+.ramka2{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid darkgrey;
+    background-color: #75deff;
+}
+
+.ramka3{
+    height: 17px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid darkgrey;
+    background-color: #75deff;
+    opacity: .8;
+}
+
+.ramka4{
+    width: auto;
+    height: 17px;
+    border: 1px solid darkgrey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 0px;
+    background-color: #75deff;
+    opacity: .8;
+    padding: 0;
+}
+
+.ramka5{
+    height: 1700px;
+    border-radius: 0;
+    border: 1px solid darkgrey;
+    background-color: #75deff;
+    opacity: .8;
+}
