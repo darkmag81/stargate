@@ -38,11 +38,12 @@ html {
     font-family: 'StargateFont', sans-serif;
     font-size: xx-large;
     text-align: left;
-    color: gold;
+    color: #dcd0c0;
     padding-left: 15px;
     opacity: .8;
     margin-bottom: 0px;
     text-shadow: 2px 2px 2px #000;
+    padding-top: 3px;
 }
 
 .glyphs {
@@ -53,14 +54,32 @@ html {
     padding-top: 3px;
     padding-left: 3px;
     padding-bottom: 3px;
+    letter-spacing: 16px;
 }
 
 .maly {
     font-size: medium;
-    color: red;
+    color: #c8b283;
 }
 
 /*----------------Margins, Paddings, Misc-----------------------------------*/
+
+.poziomyodstep{
+    margin-left: 20px;
+}
+
+.copyr{
+    font-size: xx-small;
+    font-style: italic;
+    color: white;
+    float: right;
+    margin-right: 15px;
+    margin-top: 1px;
+}
+
+#link{
+    text-decoration: none;
+}
 
 .odstep {
     margin-top: 15px;
@@ -83,6 +102,26 @@ html {
     margin-bottom: 15px;
 }
 
+.hvr-bounce-to-right:hover {
+    background-color: grey;
+    color: grey;
+}
+
+.okno{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #f4f4f4;
+    background-color: #373737;
+}
+
+.okno2{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #f4f4f4;
+    background-color: #373737;
+    opacity: 0.8;
+}
+
 /*------------------------Navbar & Buttons-----------------------------------*/
 
 .nav {
@@ -102,14 +141,22 @@ html {
     font-weight: bold;
     text-shadow: 1px 1px 1px #030;
     color: white;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
+    margin-top: 5px;
 }
 
 /*-----------------------------Borders---------------------------------------*/
 
+.ramkaactive{
+    background-color: #475747;
+    border: 1px solid #f4f4f4;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.8;
+}
+
 .ramka {
-    background-color: #75deff;
-    border: 1px solid darkgrey;
+    background-color: #373737;
+    border: 1px solid #f4f4f4;
     transition: all 0.5s ease-in-out;
     opacity: 0.8;
 }
@@ -119,8 +166,8 @@ html {
     border-bottom-left-radius: 0px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 0px;
-    border: 1px solid darkgrey;
-    background-color: #75deff;
+    border: 1px solid #f4f4f4;
+    background-color: #373737;
 }
 
 .ramka3 {
@@ -129,20 +176,20 @@ html {
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 50px;
-    border: 1px solid darkgrey;
-    background-color: #75deff;
+    border: 1px solid #f4f4f4;
+    background-color: #373737;
     opacity: .8;
 }
 
 .ramka4 {
     width: auto;
     height: 17px;
-    border: 1px solid darkgrey;
-    border-top-left-radius: 5px;
+    border: 1px solid #f4f4f4;
+    border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    border-top-right-radius: 50px;
+    border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-color: #75deff;
+    background-color: #373737;
     opacity: .8;
     padding: 0;
 }
@@ -150,7 +197,29 @@ html {
 .ramka5 {
     height: 1700px;
     border-radius: 0;
-    border: 1px solid darkgrey;
-    background-color: #75deff;
+    border: 1px solid #f4f4f4;
+    background-color: #373737;
     opacity: .8;
+}
+
+@media (max-width:1025px){
+    .okno{
+    width: 100%;
+    margin: auto;
+    }
+}
+
+.maintext{
+    font-family: 'StargateFont', sans-serif;
+    text-transform: uppercase;
+    font-size: smaller;
+    color: white;
+    padding: 10px;
+}
+
+.firstword{
+    font-family: 'StargateFont', sans-serif;
+    text-transform: uppercase;
+    font-size: small;
+    color: yellow;
 }
