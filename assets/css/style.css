@@ -39,11 +39,12 @@ html {
     font-size: xx-large;
     text-align: left;
     color: #dcd0c0;
-    padding-left: 15px;
+    padding-left: 5px;
     opacity: .8;
     margin-bottom: 0px;
     text-shadow: 2px 2px 2px #000;
     padding-top: 3px;
+    transition: all 0.2s ease-in-out;
 }
 
 .glyphs {
@@ -60,15 +61,16 @@ html {
 .maly {
     font-size: medium;
     color: #c8b283;
+    transition: all 0.2s ease-in-out;
 }
 
 /*----------------Margins, Paddings, Misc-----------------------------------*/
 
-.poziomyodstep{
+.poziomyodstep {
     margin-left: 20px;
 }
 
-.copyr{
+.copyr {
     font-size: xx-small;
     font-style: italic;
     color: white;
@@ -77,7 +79,7 @@ html {
     margin-top: 1px;
 }
 
-#link{
+#link {
     text-decoration: none;
 }
 
@@ -107,14 +109,14 @@ html {
     color: grey;
 }
 
-.okno{
+.okno {
     width: 100%;
     margin: auto;
     border: 1px solid #f4f4f4;
     background-color: #373737;
 }
 
-.okno2{
+.okno2 {
     width: 100%;
     margin: auto;
     border: 1px solid #f4f4f4;
@@ -137,17 +139,22 @@ html {
 .przy {
     text-align: center;
     padding-top: 5px;
-    font-size: small;
-    font-weight: bold;
+    font-size: x-small;
     text-shadow: 1px 1px 1px #030;
     color: white;
     letter-spacing: 2px;
     margin-top: 5px;
 }
 
+.block {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
 /*-----------------------------Borders---------------------------------------*/
 
-.ramkaactive{
+.ramkaactive {
     background-color: #475747;
     border: 1px solid #f4f4f4;
     transition: all 0.5s ease-in-out;
@@ -168,6 +175,7 @@ html {
     border-bottom-right-radius: 0px;
     border: 1px solid #f4f4f4;
     background-color: #373737;
+    margin-bottom: 0;
 }
 
 .ramka3 {
@@ -202,14 +210,14 @@ html {
     opacity: .8;
 }
 
-@media (max-width:1025px){
-    .okno{
-    width: 100%;
-    margin: auto;
+@media (max-width:1025px) {
+    .okno {
+        width: 100%;
+        margin: auto;
     }
 }
 
-.maintext{
+.maintext {
     font-family: 'StargateFont', sans-serif;
     text-transform: uppercase;
     font-size: smaller;
@@ -217,9 +225,32 @@ html {
     padding: 10px;
 }
 
-.firstword{
+.firstword {
     font-family: 'StargateFont', sans-serif;
     text-transform: uppercase;
     font-size: small;
-    color: yellow;
+    color: #f3c50b;
+}
+
+
+.red:hover,
+.stargate:hover {
+    color: #f3c50b;
+}
+
+.miscbord{
+    border: 1px solid grey;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+}
+
+.center{
+    text-align: center;
 }
