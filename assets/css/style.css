@@ -33,7 +33,7 @@ html {
 }
 
 .bg2 {
-    background-image: url(../../assets/images/racespoll.png);
+    background-image: url(../../assets/images/stars.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -154,6 +154,13 @@ html {
     color: grey;
 }
 
+@media (max-width:1025px) {
+    .okno {
+        width: 100%;
+        margin: auto;
+    }
+}
+
 .okno {
     width: 100%;
     margin: auto;
@@ -255,12 +262,7 @@ html {
     opacity: .8;
 }
 
-@media (max-width:1025px) {
-    .okno {
-        width: 100%;
-        margin: auto;
-    }
-}
+
 
 .maintext {
     font-family: 'StargateFont', sans-serif;
@@ -328,7 +330,7 @@ html {
     color: #f3c50b;
     margin-left: 10px;
     transition: all .5s ease-in-out;
-    border: 1px solid #f4f4f4;
+    border: none;
     border-radius: 6px;
     padding: 3px;
 }
@@ -336,5 +338,47 @@ html {
 .backtotop:hover {
     text-decoration: none;
     color: red;
-    border: 1px solid red;
+    border: none;
+}
+
+.charac{
+    font-family: 'StargateFont', sans-serif;
+    text-transform: uppercase;
+    color: #f3c50b;
+}
+
+.buttonchar{
+    font-family: sans-serif;
+    color: #f3c50b;
+    background-color: #373737;
+    font-size: large;
+    transition: all .2s ease-in-out;
+    border: none;
+}
+
+.buttonchar:hover{
+    color: red;
+}
+
+.caption{
+    margin-left: 15px;
+    font-size: x-large;
+    color: #dcd0c0;
+    
+}
+
+#photo{
+    width: 25%;
+}
+
+@media (max-width:1024px){
+    #photo{
+    width: 50%;
+}
+}
+
+@media (max-width:768px){
+    #photo{
+    width: 100%;
+}
 }
