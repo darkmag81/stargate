@@ -32,6 +32,51 @@ html {
     background-attachment: fixed;
 }
 
+.bg2 {
+    background-image: url(../../assets/images/racespoll.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg3 {
+    background-image: url(../../assets/images/moviesbg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg4 {
+    background-image: url(../../assets/images/characters.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg5 {
+    background-image: url(../../assets/images/weapons.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg6 {
+    background-image: url(../../assets/images/spacecraft.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /*---------------------------Text & Glyphs-----------------------------------*/
 
 .stargate {
@@ -238,24 +283,25 @@ html {
     color: #f3c50b;
 }
 
-.miscbord{
+.miscbord {
     border: 1px solid grey;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
 }
 
-.carousel-inner > .item > img, 
-.carousel-inner > .item > a > img{
-width: 100%; /* use this, or not */
-margin: auto;
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+    /* use this, or not */
+    margin: auto;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.big{
+.big {
     font-family: 'StargateFont', sans-serif;
     text-transform: uppercase;
     font-size: x-large;
@@ -264,11 +310,11 @@ margin: auto;
     text-align: center;
 }
 
-.movieitem{
+.movieitem {
     text-align: center;
 }
 
-.hline{
+.hline {
     padding-top: 20px;
     border-top-style: double;
     width: 100%;
@@ -278,7 +324,7 @@ margin: auto;
     margin-right: auto;
 }
 
-.backtotop{
+.backtotop {
     color: #f3c50b;
     margin-left: 10px;
     transition: all .5s ease-in-out;
@@ -287,7 +333,7 @@ margin: auto;
     padding: 3px;
 }
 
-.backtotop:hover{
+.backtotop:hover {
     text-decoration: none;
     color: red;
     border: 1px solid red;
