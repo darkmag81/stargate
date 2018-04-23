@@ -254,3 +254,41 @@ margin: auto;
 .center{
     text-align: center;
 }
+
+.big{
+    font-family: 'StargateFont', sans-serif;
+    text-transform: uppercase;
+    font-size: x-large;
+    color: #f3c50b;
+    padding: 10px;
+    text-align: center;
+}
+
+.movieitem{
+    text-align: center;
+}
+
+.hline{
+    padding-top: 20px;
+    border-top-style: double;
+    width: 100%;
+    text-align: center;
+    color: #f4f4f4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backtotop{
+    color: #f3c50b;
+    margin-left: 10px;
+    transition: all .5s ease-in-out;
+    border: 1px solid #f4f4f4;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+.backtotop:hover{
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+}
