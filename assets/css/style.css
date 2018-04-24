@@ -124,8 +124,8 @@ html {
     margin-top: 1px;
 }
 
-#link {
-    text-decoration: none;
+.link {
+    text-decoration: none !important;
 }
 
 .odstep {
@@ -151,7 +151,6 @@ html {
 
 .hvr-bounce-to-right:hover {
     background-color: grey;
-    color: grey;
 }
 
 @media (max-width:1025px) {
@@ -269,7 +268,7 @@ html {
     text-transform: uppercase;
     font-size: medium;
     color: white;
-    padding-left: 10px;
+    margin-left: 10px;
     padding-right: 10px;
     text-align: justify;
     clear: right;
@@ -278,7 +277,7 @@ html {
 .firstword {
     font-family: 'StargateFont', sans-serif;
     text-transform: uppercase;
-    font-size: small;
+    font-size: medium;
     color: #f3c50b;
 }
 
@@ -286,6 +285,7 @@ html {
 .red:hover,
 .stargate:hover {
     color: #f3c50b;
+    text-decoration: none;
 }
 
 .miscbord {
@@ -320,6 +320,7 @@ html {
 
 .hline {
     padding-top: 20px;
+    margin-top: 8px;
     border-top-style: double;
     width: 100%;
     text-align: center;
@@ -363,13 +364,14 @@ html {
 }
 
 .caption{
-    margin-left: 15px;
+    margin-top: 5px;
+    margin-left: 12px;
     font-size: x-large;
     color: #dcd0c0;
     
 }
 
-#photo{
+.photo{
     width: 25%;
 }
 
@@ -390,6 +392,7 @@ p img{
     max-width: 180px;
     max-height: 180px;
     margin-right: 5px;
+    margin-top: 5px;
     border: 1px solid white;
 }
 
@@ -401,11 +404,27 @@ p img{
     left:100px;
 }
 
-#mainpic{
+.mainpic{
     min-width: 280px !important ;
     min-height: 250px !important ;
 }
 
 .marginleft{
     margin-left: 10px;
+}
+
+.collapse{
+    transition: all .3s ease-in-out;
+    border: 3px double white;
+    margin-right: 10px;
+    margin-bottom: 18px;
+}
+
+.buttonchar{
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
+
+.firstspace{
+    padding-top: 20px;
 }
