@@ -16,12 +16,34 @@
     url('../../assets/font/atlantis-glyphs.ttf') format('opentype');
 }
 
-/*---------------------------Background--------------------------------------*/
-
-html {
-    height: 100%;
-    width: 100%;
+/*---------------------stargate font use----------------------*/
+.sgfont {
+    font-family: 'StargateFont', sans-serif;
 }
+
+/*-----------------Main text on home page--------------------------*/
+.big {
+    font-family: 'StargateFont', sans-serif;
+    text-transform: uppercase;
+    font-size: x-large;
+    color: #f3c50b;
+    padding: 10px;
+    text-align: center;
+}
+
+/*----------------------main font used--------------------*/
+
+.maintext {
+    font-family: 'StargateFont', sans-serif;
+    text-transform: uppercase;
+    font-size: medium;
+    color: white;
+    margin-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    clear: right;
+}
+/*---------------------------Backgrounds--------------------------------------*/
 
 .bg {
     background-image: url(../../assets/images/sgbig.jpg);
@@ -79,6 +101,7 @@ html {
 
 /*---------------------------Text & Glyphs-----------------------------------*/
 
+/*---------------------Logo text big------------------*/
 .stargate {
     font-family: 'StargateFont', sans-serif;
     font-size: xx-large;
@@ -92,6 +115,7 @@ html {
     transition: all 0.2s ease-in-out;
 }
 
+/*---------------------glyphs in header and footer from custom fonts-----*/
 .glyphs {
     border: 1px solid darkgrey;
     font-family: 'glyphs', sans-serif;
@@ -103,18 +127,34 @@ html {
     letter-spacing: 16px;
 }
 
-.maly {
+/*-----------------logo text small-------------------------*/
+.smalllogo {
     font-size: medium;
     color: #c8b283;
     transition: all 0.2s ease-in-out;
 }
 
+/*--------------------caption text-----------------------*/
+.caption{
+    margin-top: 5px;
+    margin-left: 12px;
+    font-size: x-large;
+    color: #dcd0c0;
+}
+
 /*----------------Margins, Paddings, Misc-----------------------------------*/
 
-.poziomyodstep {
+/*--------------------20px margin left-----------------------*/
+.vertspace {
     margin-left: 20px;
 }
 
+/*-------------------10px margin left--------------------------*/
+.marginleft{
+    margin-left: 10px;
+}
+
+/*----------------small text in footer-------------------------------------*/
 .copyr {
     font-size: xx-small;
     font-style: italic;
@@ -124,50 +164,61 @@ html {
     margin-top: 1px;
 }
 
+/*--------------------remove underline from links------------------------*/
 .link {
     text-decoration: none !important;
 }
 
-.odstep {
+/*------------------------top gap-----------------------------*/
+.gap {
     margin-top: 15px;
 }
 
+/*-----------uppercase for custom font---------------------------*/
 .uppercase {
     text-transform: uppercase;
 }
 
+/*----------------remove padding and cut glyphs--------------------*/
 .nopad {
     padding: 0;
     overflow: hidden;
 }
 
+/*----------------remove margins-----------------------------*/
 .nomar {
     margin: 0;
 }
 
-.odstep2 {
+/*----------------------bottom gap---------------------------*/
+.gap2 {
     margin-bottom: 15px;
 }
 
+/*------------------button effect when hover-------------------*/
 .hvr-bounce-to-right:hover {
     background-color: grey;
 }
 
+
+/*------------------media querry for medium devices-----------*/
 @media (max-width:1025px) {
-    .okno {
+    .window {
         width: 100%;
         margin: auto;
     }
 }
 
-.okno {
+/*------------------------main container without opacity--------*/
+.window {
     width: 100%;
     margin: auto;
     border: 1px solid #f4f4f4;
     background-color: #373737;
 }
 
-.okno2 {
+/*----------------main container with opacity---------------*/
+.window2 {
     width: 100%;
     margin: auto;
     border: 1px solid #f4f4f4;
@@ -183,11 +234,9 @@ html {
     margin-right: 15px;
 }
 
-.sgfont {
-    font-family: 'StargateFont', sans-serif;
-}
 
-.przy {
+
+.button {
     text-align: center;
     padding-top: 5px;
     font-size: x-small;
@@ -197,6 +246,7 @@ html {
     margin-top: 5px;
 }
 
+/*-----------------block display and center------------------------*/
 .block {
     display: block;
     text-align: center;
@@ -205,21 +255,23 @@ html {
 
 /*-----------------------------Borders---------------------------------------*/
 
-.ramkaactive {
+/*-------------------------Active border for menu button----------------------*/
+.borderactive {
     background-color: #475747;
     border: 1px solid #f4f4f4;
     transition: all 0.5s ease-in-out;
     opacity: 0.8;
 }
 
-.ramka {
+/*---------------radius borders for header and footer------------------*/
+.border {
     background-color: #373737;
     border: 1px solid #f4f4f4;
     transition: all 0.5s ease-in-out;
     opacity: 0.8;
 }
 
-.ramka2 {
+.border2 {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 50px;
@@ -229,7 +281,7 @@ html {
     margin-bottom: 0;
 }
 
-.ramka3 {
+.border3 {
     height: 17px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 10px;
@@ -240,7 +292,7 @@ html {
     opacity: .8;
 }
 
-.ramka4 {
+.border4 {
     width: auto;
     height: 17px;
     border: 1px solid #f4f4f4;
@@ -253,7 +305,7 @@ html {
     padding: 0;
 }
 
-.ramka5 {
+.border5 {
     height: 1700px;
     border-radius: 0;
     border: 1px solid #f4f4f4;
@@ -261,18 +313,7 @@ html {
     opacity: .8;
 }
 
-
-
-.maintext {
-    font-family: 'StargateFont', sans-serif;
-    text-transform: uppercase;
-    font-size: medium;
-    color: white;
-    margin-left: 10px;
-    padding-right: 10px;
-    text-align: justify;
-    clear: right;
-}
+/*---------------first word marking------------------*/
 
 .firstword {
     font-family: 'StargateFont', sans-serif;
@@ -281,19 +322,15 @@ html {
     color: #f3c50b;
 }
 
-
+/*------------------logo special transition--------*/
 .red:hover,
 .stargate:hover {
     color: #f3c50b;
     text-decoration: none;
 }
 
-.miscbord {
-    border: 1px solid grey;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-}
+
+/*--------------------carousel CSS-------------*/
 
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img {
@@ -302,15 +339,7 @@ html {
     margin: auto;
 }
 
-.big {
-    font-family: 'StargateFont', sans-serif;
-    text-transform: uppercase;
-    font-size: x-large;
-    color: #f3c50b;
-    padding: 10px;
-    text-align: center;
-}
-
+/*---------------images for movie page----------*/
 .movieitem {
     text-align: center;
     margin: 0;
@@ -318,6 +347,7 @@ html {
     width: auto;
 }
 
+/*------------------horizontal double line-------------------------*/
 .hline {
     padding-top: 20px;
     margin-top: 8px;
@@ -329,6 +359,7 @@ html {
     margin-right: auto;
 }
 
+/*----------------------back to top button-----------------------*/
 .backtotop {
     color: #f3c50b;
     margin-left: 10px;
@@ -338,11 +369,14 @@ html {
     padding: 3px;
 }
 
+/*---------------back to top button hover------------------*/
 .backtotop:hover {
     text-decoration: none;
     color: red;
     border: none;
 }
+
+/*---------------------------button for collapsing menu--------------*/
 
 .charac{
     font-family: 'StargateFont', sans-serif;
@@ -350,6 +384,7 @@ html {
     color: #f3c50b;
 }
 
+/*----------------transition effect & button for collapsing elements----*/
 .buttonchar{
     font-family: sans-serif;
     color: #f3c50b;
@@ -357,20 +392,18 @@ html {
     font-size: large;
     transition: all .2s ease-in-out;
     border: none;
+    margin-left: 5px;
+    margin-bottom: 6px;
 }
 
+/*----------------collapsing element hover-------------*/
 .buttonchar:hover{
     color: red;
 }
 
-.caption{
-    margin-top: 5px;
-    margin-left: 12px;
-    font-size: x-large;
-    color: #dcd0c0;
-    
-}
 
+
+/*---------------small images and media querry fix for smaller devices-----*/
 .photo{
     width: 25%;
 }
@@ -387,6 +420,7 @@ html {
 }
 }
 
+/*--------------------images floating left-----------------*/
 p img{
     float: left;
     max-width: 180px;
@@ -396,23 +430,17 @@ p img{
     border: 1px solid white;
 }
 
-.clearfix{
-    clear: right;
-}
-
-#moveright{
-    left:100px;
-}
-
+/*-----------------main page images forced resize-----------*/
 .mainpic{
     min-width: 280px !important ;
     min-height: 250px !important ;
 }
-
-.marginleft{
-    margin-left: 10px;
+/*-----------------------clear on right to avoid displacement of elements----*/
+.clearfix{
+    clear: right;
 }
 
+/*------------------------collapse placing and transition-----------*/
 .collapse{
     transition: all .3s ease-in-out;
     border: 3px double white;
@@ -420,11 +448,7 @@ p img{
     margin-bottom: 18px;
 }
 
-.buttonchar{
-    margin-left: 5px;
-    margin-bottom: 6px;
-}
-
+/*-----------------20px gap from top----------------------*/
 .firstspace{
     padding-top: 20px;
 }
