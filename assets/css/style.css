@@ -317,7 +317,8 @@
 
 .firstword {
     font-family: 'StargateFont', sans-serif;
-    text-transform: uppercase;
+    
+    
     font-size: medium;
     color: #f3c50b;
 }
