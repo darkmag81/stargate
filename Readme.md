@@ -1,5 +1,8 @@
  # Stargate World Website
- ## Milestone Project for User Centric Front End Development Module
+
+https://darkmag81.github.io/stargate/
+
+## Milestone Project for User Centric Front End Development Module
  *****************************************************************************
  
  ### 1. Project Scope
